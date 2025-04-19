@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Location Share</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Location Share</h1>
+    <p>Share your location with nearby users</p>
+
+    <div class="input-group">
+      <input type="text" id="loginId" placeholder="Enter Login ID" />
+      <input type="text" id="name" placeholder="Enter Your Name" />
+    </div>
+
+    <button onclick="getLocation()">Share My Location</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+
+</body>
+</html>
